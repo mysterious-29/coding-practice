@@ -10,7 +10,7 @@ function multiplyAlternate(x) {
 }
 
 const multiplyByTwo = multiply.bind(this, 2); // currying using bind
-const multiplyByThree = multiplyAlternate(3); // currying using bind
+const multiplyByThree = multiplyAlternate(3); // currying using closure
 
 multiplyByTwo(5);
 multiplyByThree(10);
